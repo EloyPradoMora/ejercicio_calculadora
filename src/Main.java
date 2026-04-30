@@ -3,7 +3,7 @@ public class Main {
         int opcion = 0;
         int a = 0;
         int b = 0;
-
+        //autores: Jaramillo y Prado
 
         // Base para el ejercicio: este switch debe ser trabajado en varias feature/*.
         // El conflicto intencional se genera cuando dos o mas features editan las mismas lineas.
