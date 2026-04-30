@@ -1,8 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int opcion = 0;
         int a = 0;
         int b = 0;
+
 
         // Base para el ejercicio: este switch debe ser trabajado en varias feature/*.
         // El conflicto intencional se genera cuando dos o mas features editan las mismas lineas.
@@ -14,10 +17,12 @@ public class Main {
                 System.out.println("TODO: implementar resta");
                 break;
             case 3:
-                System.out.println("TODO: implementar multiplicacion");
+                System.out.println("Multiplicacion de a por b");
+                System.out.println("multiplicacion entre a "+a +"y b"+b +" : "+a*b);
                 break;
             case 4:
-                System.out.println("TODO: implementar division");
+                System.out.println("Division de a en b");
+                System.out.println("division entre a "+a +"y b"+b +" : "+a/b);
                 break;
             default:
                 System.out.println("TODO: implementar menu y validaciones");
