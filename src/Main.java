@@ -18,6 +18,10 @@ public class Main {
                 break;
             case 4:
                 System.out.println("TODO: implementar division");
+                if (b == 0){
+                    System.out.println("Numero no puede ser menor que cero");
+                    break;
+                }
                 break;
             default:
                 System.out.println("TODO: implementar menu y validaciones");
