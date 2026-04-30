@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         int opcion = 0;
@@ -23,6 +21,11 @@ public class Main {
             case 4:
                 System.out.println("Division de a en b");
                 System.out.println("division entre a "+a +"y b"+b +" : "+a/b);
+                System.out.println("TODO: implementar division");
+                if (b == 0){
+                    System.out.println("Numero no puede ser menor que cero");
+                    break;
+                }
                 break;
             default:
                 System.out.println("TODO: implementar menu y validaciones");
